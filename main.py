@@ -42,7 +42,6 @@ def _similar(text):
 def _generate(text):
     text.generate()
 def _common_contexts(text):
-    print('Выбран пункт - 5. Показать в каком месте встречается сло')
     a = input('Введите слово для поиска: ')
     text.common_contexts([a])
 def main():
