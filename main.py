@@ -64,7 +64,7 @@ def main():
             ch = int(input('Выберите пункт меню: '))
         except:
             print('Введено некорректное значение\n')
-        if ((ch>11) or (ch<0)):
+        if ((ch>5) or (ch<0)):
             print('Введите корректное значение\n')
         else:
             if ch == 1:
